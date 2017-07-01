@@ -2,3 +2,12 @@
 .Rhistory
 .RData
 .Ruserdata
+
+/0_References
+/1_Data
+
+WebTextAnalysis.Rproj
+
+*.pptx
+*.docx
+*.csv
