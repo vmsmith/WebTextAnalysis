@@ -11,4 +11,5 @@
     Create PPT to tell the story
     Dig into rvest
     Dig into the DOM
+    Create README file
     
