@@ -8,6 +8,7 @@
 
 WebTextAnalysis.Rproj
 
+*.txt
 *.pptx
 *.docx
 *.csv
