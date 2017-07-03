@@ -1,3 +1,17 @@
+070317 - Monday
+
+  Accomplished  
+  
+  Fleshed out the test.html file with multiple named tables
+  Made initial progress on identifying unique/names nodes (e.g., tables) from among many
+  Figured out how to extract tables into data frames
+  Created a .css file to start using
+  
+  TO DO
+
+  Get more refined sense of how nodes are identified re: id, class, #, etc
+  Figure out how <div> works
+
 070217 - Sunday
 
   Accomplished
