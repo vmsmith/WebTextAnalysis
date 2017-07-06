@@ -15,10 +15,13 @@ html_nodes(ateam, "center font")
 html_nodes(ateam, "center font b")
 
 # Read in the page
-test1 <- read_html("1_Data/test1.html")
+test1 <- read_html("1_Data/webtext1.html")
 test1
 
 # Simple node extraction --------------------------------------------------
+
+# In the absence of anything else, this looks for a tag <bookstore>, and then
+# drills down from there
 
 books <- test1 %>% html_nodes("bookstore")
 books          
@@ -28,6 +31,7 @@ books <- test1 %>% html_nodes("bookstore book title")
 books
 
 books[1]
+
 
 # Text extraction ---------------------------------------------------------
 
@@ -39,18 +43,43 @@ test1 %>% html_nodes("h2") %>%
 
 # Identifying distinct nodes ----------------------------------------------
 
+# Identify with "id="; this finds the table <table id="music"...>
+music <- test1 %>% html_nodes("#music")
+music
 
-music <- test1 %>% html_nodes("table#music")
+music <- test1 %>% html_nodes("#music tr")
 music
-music <- test1 %>% html_nodes("table#music tr")
+
+music <- test1 %>% html_nodes("#music tr td")
 music
-music <- test1 %>% html_nodes("table#music tr td")
+
+html_text(music)
+html_text(music)[1:5]
+
+# Finds the div <div id="music_table> and then the element under it with tr and td
+music <- test1 %>% html_nodes("#music_table")
 music
+
+music <- test1 %>% html_nodes("#music_table tr")
+music
+
+music <- test1 %>% html_nodes("#music_table tr td")
+music
+
+html_text(music)
+html_text(music)[1:5]
+
 
 # Extracting tables into data frames --------------------------------------
 
+# With a table
 test1 %>%
-  html_node("table#music") %>%
+  html_node("#music") %>%
+  html_table(header = NA)
+
+# With xml - does not work; "table" is not true
+test1 %>%
+  html_node("bookstore") %>%
   html_table(header = NA)
 
 
