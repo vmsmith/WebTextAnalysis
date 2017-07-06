@@ -7,7 +7,7 @@
 
   TO DO  
    
-   Create webtext2.R and webtext2.html to demonstrate next level of web scraping
+     Create webtext2.R and webtext2.html to demonstrate next level of web scraping
   
 
 070317 - Monday
