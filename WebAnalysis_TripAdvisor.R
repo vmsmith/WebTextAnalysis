@@ -28,13 +28,19 @@ reviews <- url %>%
   read_html() %>%
   html_nodes("#REVIEWS .innerBubble")
 
+reviews[1]
+
 id <- reviews %>%
   html_node(".quote a") %>%
   html_attr("id")
 
+id
+
 quote <- reviews %>%
   html_node(".quote span") %>%
   html_text()
+
+quote
 
 rating <- reviews %>%
   html_node(".rating .rating_s_fill") %>%
@@ -42,14 +48,20 @@ rating <- reviews %>%
   gsub(" of 5 stars", "", .) %>%
   as.integer()
 
+rating 
+
 date <- reviews %>%
   html_node(".rating .ratingDate") %>%
   html_attr("title") %>%
   strptime("%b %d, %Y") %>%
   as.POSIXct()
 
+date
+
 review <- reviews %>%
   html_node(".entry .partial_entry") %>%
   html_text()
+
+review
 
 data.frame(id, quote, rating, date, review, stringsAsFactors = FALSE) %>% View()
