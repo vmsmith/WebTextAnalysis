@@ -1,4 +1,4 @@
-070617 - Thursday  
+### 070617 - Thursday  
 
   Accomplished
     
@@ -10,7 +10,7 @@
      Create webtext2.R and webtext2.html to demonstrate next level of web scraping
   
 
-070317 - Monday
+### 070317 - Monday
 
   Accomplished  
   
@@ -24,7 +24,7 @@
     Get more refined sense of how nodes are identified re: id, class, #, etc
     Figure out how <div> works
 
-070217 - Sunday
+### 070217 - Sunday
 
   Accomplished
   
@@ -38,7 +38,7 @@
     Incorporate CSS on test.html
     Figure out how <div> works
 
-070117 - Saturday
+### 070117 - Saturday
 
   Accomplished
   
