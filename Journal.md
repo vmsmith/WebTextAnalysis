@@ -1,18 +1,43 @@
-070317 - Monday
+### 070717 - Friday  
+
+  Accomplished
+    
+    Created webtext2.R and webtext2.html  
+    Fleshed out webtext1.r and webtext1.html a bit
+
+  TO DO  
+   
+     
+  
+
+
+### 070617 - Thursday  
+
+  Accomplished
+    
+    Figured out difference between <div> and <span>  
+    Created webtext1.r and webtext1.html to demonstrate initial, bottom level scraping
+
+  TO DO  
+   
+     Create webtext2.R and webtext2.html to demonstrate next level of web scraping
+  
+
+### 070317 - Monday
 
   Accomplished  
   
-  Fleshed out the test.html file with multiple named tables
-  Made initial progress on identifying unique/names nodes (e.g., tables) from among many
-  Figured out how to extract tables into data frames
-  Created a .css file to start using
+    Fleshed out the test.html file with multiple named tables
+    Made initial progress on identifying unique/names nodes (e.g., tables) from among many
+    Figured out how to extract tables into data frames
+    Created a .css file to start using
   
   TO DO
 
-  Get more refined sense of how nodes are identified re: id, class, #, etc
-  Figure out how <div> works
+    Get more refined sense of how nodes are identified re: id, class, #, etc
+    Figure out how <div> works
 
-070217 - Sunday
+### 070217 - Sunday
 
   Accomplished
   
@@ -26,7 +51,7 @@
     Incorporate CSS on test.html
     Figure out how <div> works
 
-070117 - Saturday
+### 070117 - Saturday
 
   Accomplished
   
