@@ -7,9 +7,8 @@
 
   TO DO  
    
-     
+    Create webtext3.R and webtext3.html to incorporate classes
   
-
 
 ### 070617 - Thursday  
 
