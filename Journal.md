@@ -1,3 +1,16 @@
+### 070717 - Friday  
+
+  Accomplished
+    
+    Created webtext2.R and webtext2.html  
+    Fleshed out webtext1.r and webtext1.html a bit
+
+  TO DO  
+   
+     
+  
+
+
 ### 070617 - Thursday  
 
   Accomplished
