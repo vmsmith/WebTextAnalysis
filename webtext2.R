@@ -9,22 +9,24 @@ library(selectr)
 webtext2 <- read_html("1_Data/webtext2.html")
 webtext2
 
-# Select table by "id" ----------------------------------------------------
+# Select by "class" ----------------------------------------------------
 
 wt2nodes <- webtext2 %>% html_nodes("#music_table")
 wt2nodes[[1]]
 
-wt2nodes <- webtext2 %>% html_nodes("#music_table th")
+wt2nodes <- webtext2 %>% html_nodes("#music_table .american")
+wt2nodes
+wt2nodes[[1]]
+
+wt2nodes <- webtext2 %>% html_nodes("#music_table .british")
+wt2nodes
+wt2nodes[[2]]
+
+wt2nodes <- webtext2 %>% html_nodes("#music_table .american td")
 wt2nodes
 
-wt2nodes <- webtext2 %>% html_nodes("#music_table tr")
-wt2nodes
-
-wt2nodes <- webtext2 %>% html_nodes("#music_table td")
-wt2nodes
-
-html_text(wt2nodes[c(1, 6, 11, 16)])
-html_text(wt2nodes[c(16:20)])
+html_text(wt2nodes[c(1:5)])
+html_text(wt2nodes[c(1, 6)])
 
 # Exercise ----------------------------------------------------------------
 
