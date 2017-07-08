@@ -9,16 +9,16 @@ library(selectr)
 webtext2 <- read_html("1_Data/webtext2.html")
 webtext2
 
-# Select by "class" ----------------------------------------------------
+# Select by "id" ----------------------------------------------------
 
 wt2nodes <- webtext2 %>% html_nodes("#music_table")
 wt2nodes[[1]]
 
-wt2nodes <- webtext2 %>% html_nodes("#music_table .american")
+wt2nodes <- webtext2 %>% html_nodes("#music_table tr")
 wt2nodes
 wt2nodes[[1]]
 
-wt2nodes <- webtext2 %>% html_nodes("#music_table .british")
+wt2nodes <- webtext2 %>% html_nodes("#music_table tr")
 wt2nodes
 wt2nodes[[2]]
 
