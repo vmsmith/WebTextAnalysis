@@ -1,3 +1,14 @@
+### 070817 - Saturday  
+
+  Accomplished
+  
+    Created webtext3.R and webtext3.html with classes for books and music row headers  
+  
+  TO DO  
+  
+    Create webtext4.R and webtext4.html with <div> and <span>
+    Clean up webtext2.R to completely revert back to "id"
+
 ### 070717 - Friday  
 
   Accomplished
