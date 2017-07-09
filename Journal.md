@@ -1,3 +1,13 @@
+### 070917 - Sunday  
+
+  Accomplished
+  
+    Created webtext4.R and webtext4.html with <div> and <span>
+    Cleaned up webtext2.R to completely revert back to "id"
+  
+  TO DO
+
+
 ### 070817 - Saturday  
 
   Accomplished
