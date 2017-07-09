@@ -1,4 +1,9 @@
 
+webtext5
+
+    Constructing a data frame from <table> using html_table
+    Constructing a data frame from disparate CSS selectors
+
 webtext4
 
     Book and music tables with <div> and <span>
