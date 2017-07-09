@@ -3,10 +3,12 @@
   Accomplished
   
     Created webtext4.R and webtext4.html with <div> and <span>
-    Cleaned up webtext2.R to completely revert back to "id"
+    Created webtext5.R and webtext5.html to demonstrate extracting and building data frames
   
   TO DO
 
+    Clean up webtext2.R to completely revert back to "id"
+    Take the next leap - Hadley Wickham's trip advisor (in Norfolk)
 
 ### 070817 - Saturday  
 
