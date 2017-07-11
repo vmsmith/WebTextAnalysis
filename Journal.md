@@ -1,3 +1,11 @@
+### 071117 - Tue
+
+  Accomplished
+  
+  
+  TO DO
+  
+
 ### 070917 - Sunday  
 
   Accomplished
