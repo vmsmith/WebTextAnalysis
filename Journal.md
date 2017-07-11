@@ -2,10 +2,13 @@
 
   Accomplished
   
+    Downloaded and ran Hadley Wickham's Zillow code
+    Downloaded an rvest web crawler from StackOverflow and adapted it to Zillow
   
   TO DO
   
-
+    Combine web crawler with Zillow code & create a data frame
+  
 ### 070917 - Sunday  
 
   Accomplished
