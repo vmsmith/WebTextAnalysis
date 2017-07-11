@@ -1,9 +1,11 @@
+webtext6  
 
+    On hold for Trip Advisor code
 
 webtext5
 
-    Constructing a data frame from <table> using html_table
-    Constructing a data frame from disparate CSS selectors a la Hadley Wickham
+    Constructing a data frame from <table> using html_table()
+    Constructing a data frame from disparate CSS <div> selectors a la Hadley Wickham
 
 webtext4
 
