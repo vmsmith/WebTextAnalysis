@@ -2,7 +2,7 @@
 webtext5
 
     Constructing a data frame from <table> using html_table
-    Constructing a data frame from disparate CSS selectors
+    Constructing a data frame from disparate CSS selectors a la Hadley Wickham
 
 webtext4
 
